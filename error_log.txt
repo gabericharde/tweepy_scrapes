@@ -1,0 +1,12 @@
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/util/ssl_.py:100: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#insecureplatformwarning.
+  InsecurePlatformWarning
+Traceback (most recent call last):
+  File "twitter_streaming2.py", line 49, in <module>
+    stream.filter(track=['whiskey', 'whisky', 'gin', 'vodka', 'rum', 'tequila', 'brandy', 'moonshine', 'absinthe', 'schnapps'])
+  File "/usr/local/lib/python2.7/dist-packages/tweepy/streaming.py", line 445, in filter
+    self._start(async)
+  File "/usr/local/lib/python2.7/dist-packages/tweepy/streaming.py", line 361, in _start
+    self._run()
+  File "/usr/local/lib/python2.7/dist-packages/tweepy/streaming.py", line 294, in _run
+    raise exception
+AttributeError: 'NoneType' object has no attribute 'strip'
